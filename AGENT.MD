@@ -7,6 +7,7 @@ this is a simple rest api that receve a string messague and return the icripted 
 	|-view -> simple rect frontend(MUST IGNORE!)
 ```
 # YOUR JOB
-help build the frontend react web app
+build readme, explain the dockerfile build comands step by step to run the backend dockerfile, explain how to run the frontend react app
+ 
 # DONT DO
 -dont use css-inline, if a css style is needed use a css-js
