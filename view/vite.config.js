@@ -8,4 +8,10 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  server: {
+    proxy: {
+      '/incript': 'http://localhost:8000',
+      '/decript': 'http://localhost:8000',
+    }
+  }
 })
