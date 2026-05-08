@@ -104,22 +104,7 @@ The frontend is located in the `view` directory. It provides a simple interface 
    (Assuming the project uses Vite, as indicated by the presence of `vite` in dependencies. If not, adjust the command accordingly.)
 
 ### Note
-
 The frontend is configured to communicate with the backend at `http://localhost:8000`. Ensure the backend is running before using the frontend.
-
-## Hill Cipher Implementation Details
-
-The core encryption/decryption logic is in `controller/service/cipher_utils.py`:
-
-- `clean_text`: Normalizes input (lowercase, remove non-alphabetic characters).
-- `pad_text`: Pads the text to fit block size for matrix multiplication.
-- `chars_to_nums` / `nums_to_chars`: Convert between characters and numerical values (0-25).
-- The actual Hill Cipher matrix operations are implemented in the service layer (refer to `controller/service/constants.py` for the key matrix).
-
 ## Security Note
 
 This implementation is for educational purposes only. The Hill Cipher is not secure by modern standards and should not be used for protecting sensitive information.
-
-## License
-
-[Specify your license here]
