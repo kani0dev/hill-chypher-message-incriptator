@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .service.hill_ciphey  import cypherService;
+from .service.hill_ciphey import *
 from pydantic import BaseModel
 
 class request(BaseModel):

@@ -1,0 +1,4 @@
+controller==0.1.0
+fastapi==0.136.1
+numpy==2.4.4
+pydantic==2.13.4
